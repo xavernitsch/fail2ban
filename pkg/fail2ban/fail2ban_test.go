@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tomMoulard/fail2ban/pkg/ipchecking"
-	"github.com/tomMoulard/fail2ban/pkg/rules"
-	utime "github.com/tomMoulard/fail2ban/pkg/utils/time"
+	"github.com/xaverlalo/fail2ban/pkg/ipchecking"
+	"github.com/xaverlalo/fail2ban/pkg/rules"
+	utime "github.com/xaverlalo/fail2ban/pkg/utils/time"
 )
 
 func TestShouldAllow(t *testing.T) {

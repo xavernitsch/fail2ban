@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tomMoulard/fail2ban/pkg/chain"
-	"github.com/tomMoulard/fail2ban/pkg/data"
-	"github.com/tomMoulard/fail2ban/pkg/ipchecking"
+	"github.com/xaverlalo/fail2ban/pkg/chain"
+	"github.com/xaverlalo/fail2ban/pkg/data"
+	"github.com/xaverlalo/fail2ban/pkg/ipchecking"
 )
 
 type deny struct {

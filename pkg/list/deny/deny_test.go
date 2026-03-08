@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tomMoulard/fail2ban/pkg/chain"
-	"github.com/tomMoulard/fail2ban/pkg/data"
+	"github.com/xaverlalo/fail2ban/pkg/chain"
+	"github.com/xaverlalo/fail2ban/pkg/data"
 )
 
 func TestDeny(t *testing.T) {

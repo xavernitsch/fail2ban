@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/tomMoulard/fail2ban/pkg/chain"
+	"github.com/xaverlalo/fail2ban/pkg/chain"
 )
 
 type allow struct {

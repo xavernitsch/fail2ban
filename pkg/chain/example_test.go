@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/tomMoulard/fail2ban/pkg/chain"
-	"github.com/tomMoulard/fail2ban/pkg/data"
+	"github.com/xaverlalo/fail2ban/pkg/chain"
+	"github.com/xaverlalo/fail2ban/pkg/data"
 )
 
 type PongHandler struct{}

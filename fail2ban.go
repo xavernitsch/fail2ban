@@ -11,16 +11,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tomMoulard/fail2ban/pkg/chain"
-	"github.com/tomMoulard/fail2ban/pkg/fail2ban"
-	f2bHandler "github.com/tomMoulard/fail2ban/pkg/fail2ban/handler"
-	"github.com/tomMoulard/fail2ban/pkg/ipchecking"
-	lAllow "github.com/tomMoulard/fail2ban/pkg/list/allow"
-	lDeny "github.com/tomMoulard/fail2ban/pkg/list/deny"
-	"github.com/tomMoulard/fail2ban/pkg/response/status"
-	"github.com/tomMoulard/fail2ban/pkg/rules"
-	uAllow "github.com/tomMoulard/fail2ban/pkg/url/allow"
-	uDeny "github.com/tomMoulard/fail2ban/pkg/url/deny"
+	"github.com/xaverlalo/fail2ban/pkg/chain"
+	"github.com/xaverlalo/fail2ban/pkg/fail2ban"
+	f2bHandler "github.com/xaverlalo/fail2ban/pkg/fail2ban/handler"
+	"github.com/xaverlalo/fail2ban/pkg/ipchecking"
+	lAllow "github.com/xaverlalo/fail2ban/pkg/list/allow"
+	lDeny "github.com/xaverlalo/fail2ban/pkg/list/deny"
+	"github.com/xaverlalo/fail2ban/pkg/response/status"
+	"github.com/xaverlalo/fail2ban/pkg/rules"
+	uAllow "github.com/xaverlalo/fail2ban/pkg/url/allow"
+	uDeny "github.com/xaverlalo/fail2ban/pkg/url/deny"
 )
 
 func init() {

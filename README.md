@@ -1,6 +1,6 @@
-# Fail2ban plugin for traefik
+# Fail2ban plugin for traefik [tomMoulard/fail2ban Fork](https://github.com/tomMoulard/fail2ban)
 
-[![Build Status](https://github.com/tomMoulard/fail2ban/actions/workflows/main.yml/badge.svg)](https://github.com/tomMoulard/fail2ban/actions/workflows/main.yml)
+[![Build Status](https://github.com/xaverlalo/fail2ban/actions/workflows/main.yml/badge.svg)](https://github.com/xaverlalo/fail2ban/actions/workflows/main.yml)
 
 This plugin is an implementation of a Fail2ban instance as a middleware
 plugin for Traefik.
@@ -246,4 +246,4 @@ $ docker compose up
 # Authors
 | Tom Moulard | Clément David | Martin Huvelle | Alexandre Bossut-Lasry |
 |-------------|---------------|----------------|------------------------|
-|[![](https://github.com/tomMoulard/fail2ban/blob/main/.assets/gopher-tom_moulard.png)](https://tom.moulard.org)|[![](https://github.com/tomMoulard/fail2ban/blob/main/.assets/gopher-clement_david.png)](https://github.com/cledavid)|[![](https://github.com/tomMoulard/fail2ban/blob/main/.assets/gopher-martin_huvelle.png)](https://github.com/nitra-mfs)|[![](https://github.com/tomMoulard/fail2ban/blob/main/.assets/gopher-alexandre_bossut-lasry.png)](https://www.linkedin.com/in/alexandre-bossut-lasry/)|
+|[![](https://github.com/xaverlalo/fail2ban/blob/main/.assets/gopher-tom_moulard.png)](https://tom.moulard.org)|[![](https://github.com/xaverlalo/fail2ban/blob/main/.assets/gopher-clement_david.png)](https://github.com/cledavid)|[![](https://github.com/xaverlalo/fail2ban/blob/main/.assets/gopher-martin_huvelle.png)](https://github.com/nitra-mfs)|[![](https://github.com/xaverlalo/fail2ban/blob/main/.assets/gopher-alexandre_bossut-lasry.png)](https://www.linkedin.com/in/alexandre-bossut-lasry/)|

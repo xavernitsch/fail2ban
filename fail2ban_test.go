@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tomMoulard/fail2ban/pkg/rules"
+	"github.com/xaverlalo/fail2ban/pkg/rules"
 	"golang.org/x/net/websocket"
 )
 
